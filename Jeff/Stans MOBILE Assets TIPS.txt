@@ -1,0 +1,5 @@
+Make sure you change the ID for google play services to work.
+
+Located under Plugins > Android > res > values > ids
+
+Also make sure the package names are correct!
