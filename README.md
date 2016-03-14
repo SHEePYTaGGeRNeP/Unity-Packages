@@ -1,5 +1,4 @@
 # Unity-Packages
-Unity Startup Packages
 
 ### BaseClass.unitypackage
 Use this for your baseclass from which all your MonoBehavior components inherit. This is also replaces your singleton pattern.
