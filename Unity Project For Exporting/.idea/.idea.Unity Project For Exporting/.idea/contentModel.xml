@@ -15,6 +15,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Effects" t="Include">
+            <e p="CustomEffect.cs" t="Include" />
+            <e p="CustomParticleEffect.cs" t="Include" />
+            <e p="CustomSoundEffect.cs" t="Include" />
+          </e>
           <e p="Helpers" t="Include">
             <e p="Classes" t="Include">
               <e p="CappedQueue.cs" t="Include" />

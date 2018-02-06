@@ -11,45 +11,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MathematicalCurve.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Classes/MathematicalCurve.cs">
+      <file leaf-file-name="CustomEffect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <marker date="1517906228702" expanded="true" signature="6:103" ph="..." />
-                <marker date="1517906228702" expanded="true" signature="130:3955" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="167:3953" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="230:704" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="734:860" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="918:1048" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="1204:1819" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="1244:1809" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="1917:2179" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="2190:2486" ph="/// &lt;param name=&quot;t&quot;&gt;time in the wave&lt;/param&gt; ... " />
-                <marker date="1517906228702" expanded="true" signature="2623:2881" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="2984:3414" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="3517:3743" ph="{...}" />
-                <marker date="1517906228702" expanded="true" signature="3821:3947" ph="{...}" />
+                <marker date="1517906760960" expanded="true" signature="32:447" ph="{...}" />
+                <marker date="1517906760960" expanded="true" signature="114:445" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LookAtCursor.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/LookAtCursor.cs">
+      <file leaf-file-name="CustomParticleEffect.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomParticleEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
-                <marker date="1469650332000" expanded="true" signature="43:1695" ph="{...}" />
-                <marker date="1469650332000" expanded="false" signature="56:92" ph="..." />
-                <marker date="1469650332000" expanded="true" signature="139:1693" ph="{...}" />
-                <marker date="1469650332000" expanded="true" signature="319:456" ph="{...}" />
-                <marker date="1469650332000" expanded="true" signature="487:533" ph="{...}" />
-                <marker date="1469650332000" expanded="true" signature="562:1687" ph="{...}" />
-                <marker date="1469650332000" expanded="true" signature="852:1677" ph="{...}" />
-                <marker date="1469650332000" expanded="true" signature="1146:1289" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="6:32" ph="..." />
+                <marker date="1517906764787" expanded="true" signature="66:1202" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="168:1200" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="264:419" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="462:537" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="574:1194" ph="{...}" />
+                <marker date="1517906764787" expanded="true" signature="681:1184" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,10 +44,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>floor</find>
+      <find>floo</find>
+    </findStrings>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/MultiplayerDisabler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/CameraScreenShotter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomSoundEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/CameraRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomParticleEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/ChildRenamer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/Editor/ChildRenamerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/MultiplayerDisabler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Classes/MathematicalCurve.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/LookAtCursor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -70,6 +68,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/Components/Editor/ChildRenamerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/Classes/MathematicalCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/Components/MultiplayerDisabler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/Components/LookAtCursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/CustomSoundEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/CustomParticleEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/CustomEffect.cs" />
       </list>
     </option>
   </component>
@@ -127,24 +129,6 @@
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Helpers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity Project For Exporting (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Helpers" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Classes" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity Project For Exporting (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Helpers" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Components" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517906136580</updated>
-      <workItem from="1517906140496" duration="264000" />
+      <workItem from="1517906140496" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264000" />
+    <option name="totallyTimeSpent" value="622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,6 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -209,7 +194,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -296,10 +281,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/Floor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/CameraRaycaster.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <marker date="1508846664112" expanded="true" signature="43:1644" ph="{...}" />
+            <marker date="1508846664112" expanded="false" signature="56:92" ph="..." />
+            <marker date="1508846664112" expanded="true" signature="192:1641" ph="{...}" />
+            <marker date="1508846664112" expanded="true" signature="681:1628" ph="{...}" />
+            <marker date="1508846664112" expanded="true" signature="890:1318" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/CameraScreenShotter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1517905295507" expanded="true" signature="82:2247" ph="{...}" />
+            <marker date="1517905295507" expanded="false" signature="95:215" ph="..." />
+            <marker date="1517905295507" expanded="true" signature="269:2245" ph="{...}" />
+            <marker date="1517905295507" expanded="true" signature="327:585" ph="{...}" />
+            <marker date="1517905295507" expanded="true" signature="653:2239" ph="{...}" />
+            <marker date="1517905295507" expanded="true" signature="676:866" ph="/* We should only read the screen buffer after rendering is complete ... */" />
+            <marker date="1517905295507" expanded="true" signature="1654:1828" ph="/* Read screen contents into the texture ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/LookAtCursor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <marker date="1517906473018" expanded="true" signature="6:37" ph="..." />
+            <marker date="1517906473018" expanded="true" signature="82:1685" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="130:1683" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="310:447" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="478:523" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="552:1677" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="842:1667" ph="{...}" />
+            <marker date="1517906473018" expanded="true" signature="1136:1279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Classes/MathematicalCurve.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="884">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <marker date="1517906228702" expanded="true" signature="6:103" ph="..." />
             <marker date="1517906228702" expanded="true" signature="130:3955" ph="{...}" />
@@ -319,27 +359,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/Floor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomSoundEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1517906759988" expanded="true" signature="6:32" ph="..." />
+            <marker date="1517906759988" expanded="true" signature="66:1238" ph="{...}" />
+            <marker date="1517906759988" expanded="true" signature="162:1236" ph="{...}" />
+            <marker date="1517906759988" expanded="true" signature="314:463" ph="{...}" />
+            <marker date="1517906759988" expanded="true" signature="584:1230" ph="{...}" />
+            <marker date="1517906759988" expanded="true" signature="699:1220" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Components/LookAtCursor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1469650332000" expanded="true" signature="43:1695" ph="{...}" />
-            <marker date="1469650332000" expanded="false" signature="56:92" ph="..." />
-            <marker date="1469650332000" expanded="true" signature="139:1693" ph="{...}" />
-            <marker date="1469650332000" expanded="true" signature="319:456" ph="{...}" />
-            <marker date="1469650332000" expanded="true" signature="487:533" ph="{...}" />
-            <marker date="1469650332000" expanded="true" signature="562:1687" ph="{...}" />
-            <marker date="1469650332000" expanded="true" signature="852:1677" ph="{...}" />
-            <marker date="1469650332000" expanded="true" signature="1146:1289" ph="{...}" />
+            <marker date="1517906760960" expanded="true" signature="32:447" ph="{...}" />
+            <marker date="1517906760960" expanded="true" signature="114:445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Effects/CustomParticleEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <marker date="1517906764787" expanded="true" signature="6:32" ph="..." />
+            <marker date="1517906764787" expanded="true" signature="66:1202" ph="{...}" />
+            <marker date="1517906764787" expanded="true" signature="168:1200" ph="{...}" />
+            <marker date="1517906764787" expanded="true" signature="264:419" ph="{...}" />
+            <marker date="1517906764787" expanded="true" signature="462:537" ph="{...}" />
+            <marker date="1517906764787" expanded="true" signature="574:1194" ph="{...}" />
+            <marker date="1517906764787" expanded="true" signature="681:1184" ph="{...}" />
           </folding>
         </state>
       </provider>
