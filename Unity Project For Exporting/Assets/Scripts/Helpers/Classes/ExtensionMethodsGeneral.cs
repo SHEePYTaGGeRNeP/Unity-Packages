@@ -51,7 +51,6 @@ public static class ExtensionMethodsGeneral
         return String.Format("{0}.{1}", myEnum.GetType().Name, myEnum.ToString());
     }
 
-
     /// <summary>
     /// Returns the number of nodes between the startNode and the targetNode
     /// Uses .Next and .Previous.
@@ -411,6 +410,9 @@ public static class ExtensionMethodsGeneral
         return value.Length <= maxLength ? value : value.Substring(0, maxLength);
     }
 
+    /// <summary>
+    /// Returns the elements of a collection to a string using a seperator for each element.
+    /// </summary>
     public static string ToStringCollection<T>(this IEnumerable<T> something, string seperator)
     {
         StringBuilder builder = new StringBuilder();
@@ -420,91 +422,4 @@ public static class ExtensionMethodsGeneral
         return builder.ToString();
     }
 
-#if (!UNITY_WINRT)
-
-    /// <summary>
-    /// Named format strings from object attributes. Eg:
-    /// string blaStr = aPerson.ToString("My name is {FirstName} {LastName}.")
-    /// From: http://www.hanselman.com/blog/CommentView.aspx?guid=fde45b51-9d12-46fd-b877-da6172fe1791
-    /// </summary>
-    public static string ToString(this object anObject, string aFormat, IFormatProvider formatProvider = null)
-    {
-        StringBuilder sb = new StringBuilder();
-        Type type = anObject.GetType();
-        Regex reg = new Regex(@"({)([^}]+)(})", RegexOptions.IgnoreCase);
-        MatchCollection mc = reg.Matches(aFormat);
-        int startIndex = 0;
-        foreach (Match m in mc)
-        {
-            Group g = m.Groups[2]; //it's second in the match between { and }
-            int length = g.Index - startIndex - 1;
-            sb.Append(aFormat.Substring(startIndex, length));
-
-            string toGet = string.Empty;
-            string toFormat = string.Empty;
-            int formatIndex = g.Value.IndexOf(":"); //formatting would be to the right of a :
-            if (formatIndex == -1) //no formatting, no worries
-            {
-                toGet = g.Value;
-            }
-            else //pickup the formatting
-            {
-                toGet = g.Value.Substring(0, formatIndex);
-                toFormat = g.Value.Substring(formatIndex + 1);
-            }
-
-            //first try properties
-            PropertyInfo retrievedProperty = type.GetProperty(toGet);
-            Type retrievedType = null;
-            object retrievedObject = null;
-            if (retrievedProperty != null)
-            {
-                retrievedType = retrievedProperty.PropertyType;
-                retrievedObject = retrievedProperty.GetValue(anObject, null);
-            }
-            else //try fields
-            {
-                FieldInfo retrievedField = type.GetField(toGet);
-                if (retrievedField != null)
-                {
-                    retrievedType = retrievedField.FieldType;
-                    retrievedObject = retrievedField.GetValue(anObject);
-                }
-            }
-
-            if (retrievedType != null) //Cool, we found something
-            {
-                string result = string.Empty;
-                if (toFormat == string.Empty) //no format info
-                {
-                    result = retrievedType.InvokeMember("ToString",
-                        BindingFlags.Public | BindingFlags.NonPublic |
-                        BindingFlags.Instance | BindingFlags.InvokeMethod | BindingFlags.IgnoreCase
-                        , null, retrievedObject, null) as string;
-                }
-                else //format info
-                {
-                    result = retrievedType.InvokeMember("ToString",
-                        BindingFlags.Public | BindingFlags.NonPublic |
-                        BindingFlags.Instance | BindingFlags.InvokeMethod | BindingFlags.IgnoreCase
-                        , null, retrievedObject, new object[] {toFormat, formatProvider}) as string;
-                }
-                sb.Append(result);
-            }
-            else //didn't find a property with that name, so be gracious and put it back
-            {
-                sb.Append("{");
-                sb.Append(g.Value);
-                sb.Append("}");
-            }
-            startIndex = g.Index + g.Length + 1;
-        }
-        if (startIndex < aFormat.Length) //include the rest (end) of the string
-        {
-            sb.Append(aFormat.Substring(startIndex));
-        }
-        return sb.ToString();
-    }
-
-#endif
 }
