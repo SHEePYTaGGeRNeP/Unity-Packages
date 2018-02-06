@@ -30,10 +30,8 @@ namespace Assets.Scripts.Helpers.Classes
         /// <param name="classname">USE: typeof(Class)</param>
         public static void LogError(Type classname, string message)
         {
-#if DEVELOPMENT_BUILD || UNITY_EDITOR
             Debug.LogError(Time.time + " <color=red>ERROR in </color>" + classname.Name + ":<color=red> " + message +
                            "</color>");
-#endif
         }
 
         /// <summary>
@@ -42,10 +40,8 @@ namespace Assets.Scripts.Helpers.Classes
         /// <param name="classname">USE: typeof(Class)</param>
         public static void LogError(Type classname, string message, Exception exception)
         {
-#if DEVELOPMENT_BUILD || UNITY_EDITOR
             Debug.LogError(Time.time + " <color=red>ERROR in </color>" + classname.Name + ":<color=red> " + message +
                            "\n" + exception.Message + "stacktrace:" + exception.StackTrace + "</color>");
-#endif
         }
 
         /// <summary>
@@ -54,10 +50,8 @@ namespace Assets.Scripts.Helpers.Classes
         /// <param name="classname">USE: typeof(Class)</param>
         public static void LogError(Type classname, Exception exception)
         {
-#if DEVELOPMENT_BUILD || UNITY_EDITOR
             Debug.LogError(Time.time + " <color=red>ERROR in </color>" + classname.Name + ":<color=red> " +
                            exception.Message + "stacktrace:" + exception.StackTrace + "</color>");
-#endif
         }
 
         /// <summary>
@@ -66,10 +60,8 @@ namespace Assets.Scripts.Helpers.Classes
         /// <param name="classname">USE: typeof(Class)</param>
         public static void LogError(Type classname, string method, string message)
         {
-#if DEVELOPMENT_BUILD || UNITY_EDITOR
             Debug.LogError(Time.time + " <color=red>ERROR in </color>" + classname.Name + "." + method +
                            "():<color=red> " + message + "</color>");
-#endif
         }
 
         /// <summary>
