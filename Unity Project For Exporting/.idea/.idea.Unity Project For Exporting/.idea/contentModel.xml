@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Lorenzo\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Unity Project For Exporting.-161911235.00" t="ExcludeRecursive" />
+    <e p="D:\DEV\GITHUB\Unity-Packages\Unity Project For Exporting" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Helpers" t="Include">
+            <e p="Classes" t="Include">
+              <e p="CappedQueue.cs" t="Include" />
+              <e p="CappedStack.cs" t="Include" />
+              <e p="Constants.cs" t="Include" />
+              <e p="DebugExtension.cs" t="Include" />
+              <e p="ExtensionMethodsGeneral.cs" t="Include" />
+              <e p="ExtensionMethodsUnity.cs" t="Include" />
+              <e p="Helpers.cs" t="Include" />
+              <e p="IntersectionHelper.cs" t="Include" />
+              <e p="LerpHelper.cs" t="Include" />
+              <e p="ListDictionary.cs" t="Include" />
+              <e p="LockedList.cs" t="Include" />
+              <e p="LogHelper.cs" t="Include" />
+              <e p="MathematicalCurve.cs" t="Include" />
+              <e p="Mathfx.cs" t="Include" />
+              <e p="MeshHelper.cs" t="Include" />
+              <e p="ScriptableObjectUtility.cs" t="Include" />
+              <e p="StopWatchHelper.cs" t="Include" />
+              <e p="Tuple.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="CameraFacingBillboard.cs" t="Include" />
+              <e p="CameraRaycaster.cs" t="Include" />
+              <e p="CameraScreenShotter.cs" t="Include" />
+              <e p="ChildRenamer.cs" t="Include" />
+              <e p="CustomFollowTarget.cs" t="Include" />
+              <e p="DebugObject.cs" t="Include" />
+              <e p="DebugText.cs" t="Include" />
+              <e p="DestroyIfNoChildren.cs" t="Include" />
+              <e p="DontDestroyOnLoad.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="ChildRenamerEditor.cs" t="Include" />
+              </e>
+              <e p="ExecuteOnMainThread.cs" t="Include" />
+              <e p="FadeIn.cs" t="Include" />
+              <e p="Floor.cs" t="Include" />
+              <e p="FPSDisplay.cs" t="Include" />
+              <e p="LookAtCursor.cs" t="Include" />
+              <e p="LookAtVelocity.cs" t="Include" />
+              <e p="MathematicalCurveTester.cs" t="Include" />
+              <e p="MultiplayerDisabler.cs" t="Include" />
+              <e p="RunEditorOnFocusLost.cs" t="Include" />
+              <e p="TimedEnabler.cs" t="Include" />
+              <e p="VersionTextScript.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Unity Project For Exporting.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

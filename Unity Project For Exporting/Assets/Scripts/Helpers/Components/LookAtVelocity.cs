@@ -1,8 +1,8 @@
-﻿namespace Assets.Scripts.Helpers.Components
-{
-    using UnityEngine;
+﻿using UnityEngine;
 
-    public class LookAtVelocity : BaseClass
+namespace Assets.Scripts.Helpers.Components
+{
+    public class LookAtVelocity : MonoBehaviour
     {
         private Rigidbody2D _rb2D;
         private Rigidbody _rb;
@@ -10,9 +10,8 @@
         [SerializeField]
         private Transform _transformToRotate;
 
-        protected override void Awake()
+        protected void Awake()
         {
-            base.Awake();
             this._rb2D = this.GetComponent<Rigidbody2D>();
             this._rb = this.GetComponent<Rigidbody>();
         }

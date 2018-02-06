@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class ExecuteOnMainThread : BaseClass
+    public class ExecuteOnMainThread
     {
         public static readonly Queue<Action> ActionsToExecute = new Queue<Action>();
 

@@ -4,13 +4,11 @@
 
     public class CameraFacingBillboard : MonoBehaviour
     {
-        [SerializeField]
-        private Camera _cameraToFace;
+        public Camera _cameraToFace;
 
         private enum Axis { Up, Down, Left, Right, Forward, Back };
 
-        [SerializeField]
-        private bool _reverseFace = false;
+        public bool _reverseFace = false;
         [SerializeField]
         private Axis _axis = Axis.Up;
 

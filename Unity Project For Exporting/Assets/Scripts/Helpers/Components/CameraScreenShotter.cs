@@ -1,19 +1,19 @@
-﻿namespace Assets.Scripts.Helpers.Components
+﻿using Assets.Scripts.Helpers.Classes;
+
+namespace Assets.Scripts.Helpers.Components
 {
     using System;
     using System.Collections;
     using System.IO;
-
     using UnityEngine;
     using UnityEngine.SceneManagement;
 
     public class CameraScreenShotter : MonoBehaviour
     {
-
         public void TakeScreenshot(string filename)
         {
             if (String.IsNullOrEmpty(filename))
-                filename = string.Format("Screenshot {0} - {1}", SceneManager.GetActiveScene().name, this.name);
+                filename = string.Format("Screenshot {0} - {1}", /* SceneManager.GetActiveScene().name*/"", this.name);
             this.StartCoroutine(this.ReallyTakeScreenshot(filename));
         }
 
@@ -25,8 +25,8 @@
 
             // Create a texture the size of the screen, RGB24 format
             Camera cameraToSave = this.GetComponent<Camera>();
-            int width = cameraToSave.pixelWidth;  //Screen.width;
-            int height = cameraToSave.pixelHeight;//Screen.height;
+            int width = cameraToSave.pixelWidth; //Screen.width;
+            int height = cameraToSave.pixelHeight; //Screen.height;
             Texture2D tex = new Texture2D(width, height, TextureFormat.RGB24, false);
             // Initialize and render
             RenderTexture rt = new RenderTexture(width, height, 24);

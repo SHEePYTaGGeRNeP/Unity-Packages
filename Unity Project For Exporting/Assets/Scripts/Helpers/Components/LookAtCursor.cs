@@ -1,9 +1,8 @@
-﻿namespace Assets.Scripts.Helpers.Components
+﻿using System.Linq;
+using UnityEngine;
+
+namespace Assets.Scripts.Helpers.Components
 {
-    using System.Linq;
-
-    using UnityEngine;
-
     public class LookAtCursor : MonoBehaviour
     {
         private LerpHelper _lerpHelper;
@@ -20,7 +19,6 @@
         private void Update()
         {
             this.Look();
-
         }
 
         private void Look()
