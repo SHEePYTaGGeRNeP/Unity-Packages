@@ -20,6 +20,10 @@
             <e p="CustomParticleEffect.cs" t="Include" />
             <e p="CustomSoundEffect.cs" t="Include" />
           </e>
+          <e p="Events" t="Include">
+            <e p="GenericEvents.cs" t="Include" />
+            <e p="HowToUseGenericEvents.cs" t="Include" />
+          </e>
           <e p="Helpers" t="Include">
             <e p="Classes" t="Include">
               <e p="CappedQueue.cs" t="Include" />
